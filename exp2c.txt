@@ -1,0 +1,90 @@
+Certainly! Here's an algorithmic representation of the given C code:
+
+**Algorithm for Arithmetic Calculator**
+
+1. Start
+
+2. Declare variables:
+   - `choice` (integer) for storing the user's choice of operation.
+   - `num1` and `num2` (doubles) for storing the two input numbers.
+   - `result` (double) for storing the result of the operation.
+
+3. Display a menu with options:
+   - "Choose an option:"
+   - "1. Add"
+   - "2. Subtract"
+   - "3. Multiply"
+   - "4. Divide"
+
+4. Read the user's choice into the `choice` variable using `scanf`.
+
+5. Prompt the user to enter two numbers and read them into the `num1` and `num2` variables using `scanf`.
+
+6. Use a `switch` statement to perform the selected arithmetic operation based on the value of `choice`:
+   - Case 1:
+     - Add `num1` and `num2` and store the result in `result`.
+     - Display the result.
+     - Break out of the `switch` statement.
+   - Case 2:
+     - Subtract `num2` from `num1` and store the result in `result`.
+     - Display the result.
+     - Break out of the `switch` statement.
+   - Case 3:
+     - Multiply `num1` and `num2` and store the result in `result`.
+     - Display the result.
+     - Break out of the `switch` statement.
+   - Case 4:
+     - Check if `num2` is equal to zero:
+       - If yes, display an error message: "Error: Division by zero is not allowed."
+       - If no, divide `num1` by `num2` and store the result in `result`.
+       - Display the result.
+     - Break out of the `switch` statement.
+   - Default:
+     - Display "Invalid choice" if the user's choice is not 1, 2, 3, or 4.
+
+7. End
+
+This algorithm outlines the steps the program takes to provide a basic arithmetic calculator based on the user
+
+
+
+
+*OUTPUT:
+Choose an option:
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+
+
+
+
+
+Here's an algorithmic representation of the C program you provided, which determines whether a user-entered integer is even or odd using the `if-else` statement:
+
+**Algorithm for Determining Whether a Number is Even or Odd**
+
+1. Start
+
+2. Declare an integer variable `number`.
+
+3. Display a message: "Enter an integer."
+
+4. Read an integer input from the user and store it in the `number` variable using `scanf`.
+
+5. Check if the number is even or odd using the `if-else` statement:
+   - If `number % 2` is equal to 0 (i.e., the remainder of `number` divided by 2 is 0):
+     - Display "`number` is even."
+   - Else:
+     - Display "`number` is odd."
+
+6. End
+
+This algorithm describes the steps performed by the given C program to determine whether an entered integer is even or odd and then displays the result accordingly.
+
+
+
+*OUTPUT:
+
+Enter an integer: 12
+12 is even.

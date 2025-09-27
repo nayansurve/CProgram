@@ -1,0 +1,44 @@
+Here's an algorithmic representation of the given C code for reading and displaying values of different data types using `scanf`, `printf`, and format specifiers:
+
+**Algorithm for Reading and Displaying Values in C**
+
+1. Start
+
+2. Declare variables of different data types:
+   - `integerNumber` (int) for storing an integer.
+   - `floatingNumber` (float) for storing a floating-point number.
+   - `character` (char) for storing a character.
+   - `doubleNumber` (double) for storing a double.
+
+3. Display a message: "Enter an integer."
+
+4. Read an integer value from the user using `scanf` with the format specifier `%d` and store it in `integerNumber`.
+
+5. Display a message: "Enter a floating-point number."
+
+6. Read a floating-point number from the user using `scanf` with the format specifier `%f` and store it in `floatingNumber`.
+
+7. Display a message: "Enter a character."
+
+8. Read a character from the user using `scanf` with the format specifier `" %c"` (including a space before `%c` to consume any preceding newline character) and store it in `character`.
+
+9. Display a message: "Enter a double."
+
+10. Read a double value from the user using `scanf` with the format specifier `%lf` and store it in `doubleNumber`.
+
+11. Display the entered values:
+    - Display "You entered:".
+    - Display "Integer: `integerNumber`".
+    - Display "Floating-point number: `floatingNumber`" with two decimal places.
+    - Display "Character: `character`".
+    - Display "Double: `doubleNumber`".
+
+12. End
+
+*OUTPUT:
+
+You entered:
+Integer: 42
+Floating-point number: 3.14
+Character: A
+Double: 2.72

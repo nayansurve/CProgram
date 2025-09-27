@@ -1,0 +1,63 @@
+Here's an algorithmic representation of the given C code for calculating the factorial of a positive integer using `while`, `do-while`, and `for` loops:
+
+**Algorithm for Calculating Factorial**
+
+1. Start
+
+2. Declare variables:
+   - `number` (integer) for storing the positive integer input.
+   - `factorial` (integer) for storing the factorial of the input number, initialized to 1.
+
+3. Display a message: "Enter a positive integer."
+
+4. Read the positive integer input from the user and store it in the `number` variable using `scanf`.
+
+5. Check if `number` is less than 0:
+   - If yes, display an error message: "Error: Factorial is not defined for negative numbers."
+   - Exit the program with an error code (return 1).
+
+6. Initialize a loop control variable `i` to 1.
+
+7. Calculate the factorial using a `while` loop:
+   - Initialize `factorial` to 1.
+   - While `i` is less than or equal to `number`:
+     - Multiply `factorial` by `i`.
+     - Increment `i` by 1.
+
+8. Display the result of the factorial calculation using a `while` loop:
+   - Display "Factorial using while loop: `number`! = `factorial`."
+
+9. Reset `factorial` to 1 for the next calculation.
+
+10. Calculate the factorial using a `do-while` loop:
+    - Initialize `factorial` to 1.
+    - Initialize `i` to 1.
+    - Do the following while `i` is less than or equal to `number`:
+      - Multiply `factorial` by `i`.
+      - Increment `i` by 1.
+
+11. Display the result of the factorial calculation using a `do-while` loop:
+    - Display "Factorial using do-while loop: `number`! = `factorial`."
+
+12. Reset `factorial` to 1 for the next calculation.
+
+13. Calculate the factorial using a `for` loop:
+    - Initialize `factorial` to 1.
+    - Use a `for` loop with the loop control variable `i` initialized to 1 and the loop condition `i` less than or equal to `number`:
+      - Multiply `factorial` by `i`.
+
+14. Display the result of the factorial calculation using a `for` loop:
+    - Display "Factorial using for loop: `number`! = `factorial`."
+
+15. End
+
+This algorithm describes the steps performed by the given C code to calculate and display the factorial of a positive integer using different loop constructs
+
+
+*OUTPUT:
+
+Factorial using while loop: 5! = 120.
+
+Factorial using do-while loop: 5! = 120.
+
+Factorial using for loop: 5! = 120.
